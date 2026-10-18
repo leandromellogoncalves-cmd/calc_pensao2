@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistema de Calculo de Pensao</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="top"><div class="brand">⚖️ Calculadora de Pensão</div></header>
+<main class="home">
+  <section class="hero">
+    <span class="badge">SISTEMA WEB</span>
+    <h1>Cálculo de Pensão</h1>
+    <p>Escolha o tipo de cálculo que deseja realizar.</p>
+    <div class="home-buttons">
+      <a class="big-btn" href="/normal"><strong>➜</strong><span>Cálculo de Pensão Normal<small>Informe remunerações, descontos e percentual.</small></span></a>
+      <a class="big-btn secondary" href="/reversa"><strong>↩</strong><span>Cálculo de Pensão Reversa<small>Informe o valor da pensão e descubra a base correspondente.</small></span></a>
+    </div>
+  </section>
+</main>
+<footer>Calculadora de apoio — confira sempre o título judicial e as regras aplicáveis ao caso.</footer>
+</body>
+</html>
